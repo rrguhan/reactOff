@@ -1,0 +1,141 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+  table, td, th {  
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 0.5cm;
+      table-layout: fixed;
+    width: 1000px;
+      align-content: center;
+      margin-left:auto; 
+    margin-right:auto;
+
+    }
+    tr:hover {background-color:rgb(147, 222, 252)}
+    th, td {
+      padding: 5px ;
+    }
+  th{
+      background-color:lightblue;
+  }
+  .center {
+    text-align: center;
+  }
+  
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #e7e7e7;
+      background-color: #f7f7f7;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      
+      display: block;
+      color: rgb(19, 92, 160);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li:last-child {
+      border-right: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: rgb(62, 52, 151);
+    }
+    
+    li a.active {
+      color: rgb(204, 183, 241);
+      background-color: grey;
+    }
+  
+    #loginBox {
+                 
+          background-color: rgb(144, 209, 247);
+          margin: auto;
+          padding: 10px ;
+          width: 25%;
+          border: 3px solid black;
+          border-radius: 25px;
+          position: fixed;
+          top: 15%;
+          left: 35%;
+    }
+  
+   
+    button{
+      width: 30%;
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color:rgb(249, 249, 250);
+      background-position: 10px 10px;         
+      padding: 12px 12px 12px 12px;
+      text-align: center;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    
+    .topnav-right {
+      float: right;
+    }
+
+   
+    .pagination {
+      display: inline-block;
+    }
+    
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 1px solid #ddd;
+      margin: 0 4px;
+    }
+    
+    .pagination a.active {
+      background-color: #4CAF50;
+      color: white;
+      border: 1px solid #4CAF50;
+    }
+    
+    .pagination a:hover:not(.active) {background-color: #ddd;}
